@@ -8,6 +8,7 @@ public class Person {
     private String aName;
     private int aAge;
     private Gender aGender;
+    private Double aWeigth;
 
     public Person(){
 
@@ -58,8 +59,16 @@ public class Person {
         //Print age
 
         System.out.println("My age is :"+ getAge());
+        System.out.println("My Weight is :"+ getWeigth());
         System.out.println("I am a "+getGender().toString()+ " person.");
 
     }
 
+    public Double getWeigth() {
+        return aWeigth;
+    }
+
+    public void setWeigth(Double aWeigth) {
+        this.aWeigth = aWeigth;
+    }
 }
