@@ -34,6 +34,14 @@ class PersonTest {
     }
 
     @Test
+    void createAHenPersonByConstructor() {
+        Person femalePerson = new Person(aFemaleName,anAdultAge,Gender.HEN);
+        assertEquals(femalePerson.getAge(),anAdultAge);
+        assertEquals(femalePerson.getName(),aFemaleName);
+        assertEquals(femalePerson.getGender(),Gender.FEMALE);
+    }
+
+    @Test
     void testValidInvalidAgeInput(){
         String inValidIntS = "6y";
         String validIntS = "6";
