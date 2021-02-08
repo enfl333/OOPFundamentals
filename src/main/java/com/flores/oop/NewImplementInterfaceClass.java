@@ -5,4 +5,9 @@ public class NewImplementInterfaceClass implements MyInterface{
     public void myImplementationOfTruth() {
         System.out.println("New Class implementing Interface");
     }
+
+    @Override
+    public void myNewImplementationOfTruth() {
+        System.out.println("Fixing after merge");
+    }
 }
