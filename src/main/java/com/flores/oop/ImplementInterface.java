@@ -6,4 +6,9 @@ public class ImplementInterface implements MyInterface{
     public void myImplementationOfTruth() {
         System.out.println("Implement interface");
     }
+
+    @Override
+    public void myNewImplementationOfTruth() {
+        System.out.println("New Implementation method");
+    }
 }
