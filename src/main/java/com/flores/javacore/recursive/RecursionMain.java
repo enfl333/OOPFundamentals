@@ -3,7 +3,7 @@ package com.flores.javacore.recursive;
 public class RecursionMain {
 
     public static void main(String[] args) {
-        countBackwards(10);
+        countBackwards(15);
     }
 
     public static void countBackwards(int n){
